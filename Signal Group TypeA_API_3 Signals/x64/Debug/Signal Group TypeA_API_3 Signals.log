@@ -1,0 +1,14 @@
+﻿  Compiling CUDA source file GPU_deserialize.cu...
+  
+  C:\Users\redam\source\repos\Signal Group TypeA_API_3 Signals\Signal Group TypeA_API_3 Signals>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include"  -G   --keep-dir x64\Debug  -maxrregcount=0   --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/Fdx64\Debug\vc143.pdb" -o "C:\Users\redam\source\repos\Signal Group TypeA_API_3 Signals\Signal Group TypeA_API_3 Signals\x64\Debug\GPU_deserialize.cu.obj" "C:\Users\redam\source\repos\Signal Group TypeA_API_3 Signals\Signal Group TypeA_API_3 Signals\GPU_deserialize.cu" 
+C:\Users\redam\source\repos\Signal Group TypeA_API_3 Signals\Signal Group TypeA_API_3 Signals\GPU_deserialize.cu(39): warning #177-D: variable "ptr_s" was declared but never referenced
+        SignalGroup_A_Type* ptr_s = dataElement;
+                            ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+  GPU_deserialize.cu
+  tmpxft_000039f4_00000000-7_GPU_deserialize.cudafe1.cpp
+     Creating library C:\Users\redam\source\repos\Signal Group TypeA_API_3 Signals\x64\Debug\Signal Group TypeA_API_3 Signals.lib and object C:\Users\redam\source\repos\Signal Group TypeA_API_3 Signals\x64\Debug\Signal Group TypeA_API_3 Signals.exp
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Signal Group TypeA_API_3 Signals.vcxproj -> C:\Users\redam\source\repos\Signal Group TypeA_API_3 Signals\x64\Debug\Signal Group TypeA_API_3 Signals.exe
